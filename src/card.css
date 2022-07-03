@@ -1,0 +1,53 @@
+.fullcardbody{
+    border: 5px solid black; 
+    border-radius: 35px;  
+    margin: 10px;
+    flex-basis: 30%;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+    /* opacity: 1.1; */
+}
+button:hover{
+    cursor: pointer;
+}
+.fullcardbody:hover{
+    transform: scale(1.1);
+}
+.fullcardbody > .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top > h1{
+    margin: 10px;
+}
+hr{
+    border-bottom: 1px solid black;
+}
+.unorderlist{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.unorderlist > li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn > button {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(22, 22, 211);
+    color: white;
+    border-color: rgb(22, 22, 211);
+    border-radius: 20px;
+    opacity: 0.7;
+    
+}
